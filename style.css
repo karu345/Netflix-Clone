@@ -1,0 +1,686 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    /* border: border-box; */
+    overflow-x: hidden;
+}
+
+/* body {
+    width: 100%;
+    overflow-x: hidden;
+} */
+
+.nav {
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9.6rem;
+}
+
+.nav-logo {
+    height: 5rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("assests/Netflix_Logo_PMS.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.nav-signout {
+    height: 4.6rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: 500;
+    height: 50%;
+    width: 80%;
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+}
+
+.btn:hover {
+    background-color: rgb(229, 9, 20, 0.8);
+}
+
+header {
+    position: relative;
+    height: 50rem;
+    background-image: url("assests/IN-en-20240827-TRIFECTA-perspective_WEB_c292a608-cdc6-4686-8dc8-405bfcf753af_large.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+    background-blend-mode: overlay; /* Blends the black color with the background image */
+    overflow-y: hidden;
+}
+
+.heading {
+    height: 33rem;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 5rem;
+    padding: 20px;
+    font-size: 3.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1 {
+    height: 4rem;
+    width: 16rem;
+    text-align: center;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.3rem;
+    font-weight: 500;
+}
+
+.signup i {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.btn1:hover {
+    background-color: rgb(229, 9, 20, 0.8);
+}
+
+.curve {
+    height: 6rem;
+    background-color: black;
+}
+
+.whole {
+    border: 3px solid rgba(229, 9, 20, 1);
+    border-radius: 50%;
+    position: relative;
+}
+
+.bottom-blur {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 12%;
+    background: linear-gradient(to bottom, rgba(64, 97, 231, 0.4), transparent);
+}
+
+/* - **position: absolute;**: Positions the element absolutely within its nearest positioned ancestor (i.e., an ancestor with position: relative;, absolute;, or fixed;).
+
+- **bottom: 0;**: Aligns the bottom edge of the element with the bottom edge of its positioned ancestor.
+
+- **width: 100%;**: Sets the element's width to cover the entire width of its positioned ancestor.
+
+- **height: 16%;**: Sets the element's height to 16% of the height of its positioned ancestor.
+
+- **background: linear-gradient(to top, rgba(64, 97, 231, 0.4), transparent);**: Applies a gradient background to the element that starts with a semi-transparent blue color (rgba(64, 97, 231, 0.4)) at the bottom and transitions to fully transparent at the top. This creates a fading effect from a blue hue to no color as it moves upwards.
+
+Overall, this class creates a semi-transparent blue gradient at the bottom of the container, fading upwards to allow the background or content behind it to show through. */
+
+.main {
+    height: 100%;
+    /* width: 76.45rem; */
+    padding: 0 9.25rem 0 9.25rem;
+    background-color: black;
+    overflow-y: hidden;
+}
+
+.card-head {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cards {
+    display: flex;
+    /* height: 18.15rem; */
+    margin-left: -0.75rem;
+    flex-wrap: wrap;
+    /* overflow-y: hidden; */
+}
+
+.card {
+    margin: 0.75rem 0 0 0.75rem;
+    flex-grow: 1;
+    width: 18.363rem;
+    height: 17.15rem;
+    border-radius: 1rem;
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%); /*IMPORTANT*/
+    position: relative;
+}
+
+.card-h .upper {
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem;
+    font-weight: 500;
+}
+
+.card-h .lower {
+    color: white;
+    font-size: 0.90rem;
+    padding: 0 1rem 1rem 1rem;
+    opacity: 0.7;
+}
+
+.card-i {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.que {
+    margin-top: 4rem;
+    color: white;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+    height: 2.2rem;
+    overflow: hidden;
+}
+
+.ques {
+    height: 34.5rem;
+    padding-top: 1rem;
+}
+
+.ask {
+    height: 2.25rem;
+    padding: 1.5rem;
+    background-color: rgba(58, 58, 58, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.top {
+    margin-top: 0.50rem;
+}
+
+.ask:hover {
+    background-color: rgba(58, 58, 58, 1);
+}
+
+.one {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.foot {
+    width: 100%;
+    margin: 4rem 0 6rem 0;
+}
+
+.signup-l {
+    display: flex;
+    align-items: center;
+}
+
+.signup-l i {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.btn2 {
+    height: 4rem;
+    width: 16rem;
+    text-align: center;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.3rem;
+    font-weight: 500;
+}
+
+.btn2:hover {
+    background-color: rgb(229, 9, 20, 0.8);
+}
+
+.panel {
+    margin-top: 4rem;
+    height: 8.25rem;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+ul a {
+    display: block;
+    color: #dddddd;
+    width: 18.891rem;
+    height: 1.313rem;
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    opacity: 0.8;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.end {
+    margin-top: 4rem;
+}
+
+.netflix {
+    color: #dddddd;
+    font-size: 0.85rem;
+    opacity: 0.8;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+@media (min-width: 350px) and (max-width: 580px) {
+
+    .nav {
+        padding: 0 1.5rem;
+        height: 7.5rem;
+    }
+
+    .nav-logo {
+        width: 6.7rem;
+        height: 3rem;
+        margin-top: -1.9rem;
+    }
+
+    .logo {
+        background-size: cover;
+        margin-left: -1rem;
+    }
+
+    .nav-signout {
+        width: 5.2rem;
+        height: 1.8rem;
+        margin-top: -1.9rem;
+    }
+
+    .btn {
+        width: 100%;
+        height: 100%;
+    }
+
+    header {
+        height: 38rem;
+    }
+
+    .heading {
+        height: 25rem;
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .h1 {
+        font-size: 1.8rem;
+        height: 7rem;
+        padding: 0;
+        margin-top: 2rem;
+        font-weight: 700;
+    }
+
+    .btn1 {
+        width: 14.9rem;
+        height: 3.5rem;
+        font-size: 1.4rem;
+    }
+
+    .curve {
+        height: 6rem;
+        background-color: black;
+    }
+
+    .whole {
+        border: 2px solid rgba(229, 9, 20, 1);
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .bottom-blur {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 9.2%;
+        background: linear-gradient(to bottom, rgba(64, 97, 231, 0.4), transparent);
+    }
+
+    .main {
+        padding: 0 1.5rem 0 1.5rem;
+        height: 100%;
+    }
+
+    .card-head {
+        font-size: 1.125rem;
+        margin-left: 0;
+    }
+
+    .card {
+        height: 12.85rem;
+    }
+
+    .card-h .upper {
+        font-size: 1.2rem;
+        padding: 0.75rem;
+    }
+
+    .card-h .lower {
+        font-size: 0.90rem;
+    }
+
+    .ques {
+        height: 29.8rem;
+    }
+
+    .que {
+        font-size: 1.125rem;
+    }
+
+    .ask {
+        height: 1.5rem;
+    }
+
+    .one {
+        font-size: 1.125rem;
+    }
+
+    .btn2 {
+        width: 14.9rem;
+        height: 3.5rem;
+        font-size: 1.4rem;
+    }
+
+    .panel {
+        height: 31rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 581px) and (max-width: 940px) {
+    .nav {
+        padding: 0 2rem;
+        height: 7.5rem;
+    }
+
+    .nav-logo {
+        width: 6.875rem;
+        height: 3rem;
+        margin-top: -2rem;
+    }
+
+    .logo {
+        background-size: cover;
+        margin-left: -1rem;
+    }
+
+    .nav-signout {
+        width: 5.47rem;
+        height: 2rem;
+        margin-top: -2rem;
+    }
+
+    .btn {
+        width: 100%;
+        height: 100%;
+    }
+
+    header {
+        height: 38rem;
+    }
+
+    .heading {
+        height: 25rem;
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .h1 {
+        font-size: 2rem;
+        height: 7rem;
+        padding: 0;
+        margin-top: 2rem;
+        font-weight: 700;
+    }
+
+    .btn1 {
+        width: 15rem;
+        height: 3.5rem;
+        font-size: 1.4rem;
+    }
+
+    .curve {
+        height: 6rem;
+        background-color: black;
+    }
+
+    .whole {
+        border: 2px solid rgba(229, 9, 20, 1);
+        border-radius: 50%;
+        position: relative;
+    }
+
+    .bottom-blur {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 9.2%;
+        background: linear-gradient(to bottom, rgba(64, 97, 231, 0.4), transparent);
+    }
+
+    .main {
+        padding: 0 2rem;
+        height: 100%;
+    }
+
+    .card-head {
+        font-size: 1.125rem;
+        margin-left: 0;
+    }
+
+    .card {
+        height: 12.85rem;
+        width: 100%;
+    }
+
+    .card-h .upper {
+        font-size: 1.2rem;
+        padding: 0.75rem;
+    }
+
+    .card-h .lower {
+        font-size: 0.90rem;
+    }
+
+    .ques {
+        height: 29.8rem;
+    }
+
+    .que {
+        font-size: 1.125rem;
+    }
+
+    .ask {
+        height: 1.5rem;
+    }
+
+    .one {
+        font-size: 1.125rem;
+    }
+
+    .btn2 {
+        width: 14.9rem;
+        height: 3.5rem;
+        font-size: 1.4rem;
+    }
+
+    .panel {
+        height: 16.5rem;
+    }
+
+    ul a {
+        width: 15rem;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 941px) and (max-width: 1287px) {
+    .nav {
+        padding: 0 5rem;
+        height: 7.5rem;
+    }
+
+    .nav-logo {
+        width: 11rem;
+        height: 4rem;
+        margin-top: -2.2rem;
+    }
+
+    .logo {
+        background-size: cover;
+        margin-left: -1rem;
+    }
+
+    .nav-signout {
+        width: 5.5rem;
+        height: 2.1rem;
+        margin-top: -2.2rem;
+    }
+
+    .btn {
+        width: 100%;
+        height: 100%;
+    }
+
+    header {
+        height: 45rem;
+    }
+
+    .heading {
+        height: 31rem;
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .h1 {
+        font-size: 2.5rem;
+        height: 8rem;
+        padding: 0;
+        margin-top: 2rem;
+        font-weight: 700;
+    }
+
+    .btn1 {
+        width: 15.5rem;
+        height: 3.6rem;
+        font-size: 1.4rem;
+    }
+
+    .curve {
+        height: 6rem;
+        background-color: black;
+    }
+    
+    .whole {
+        border: 2.5px solid rgba(229, 9, 20, 1);
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    .bottom-blur {
+        position: absolute;
+        bottom: 0px;
+        height: 10%;
+        background: linear-gradient(to bottom, rgba(64, 97, 231, 0.4), transparent);
+    }
+
+    .main {
+        padding: 0 5rem;
+        height: 100%;
+    }
+
+    .card-head {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .card {
+        height: 13.4rem;
+        width: 40%;
+    }
+
+    .card-h .upper {
+        font-size: 1.25rem;
+        padding: 0.75rem;
+    }
+
+    .card-h .lower {
+        font-size: 1rem;
+    }
+
+    .ques {
+        height: 35rem;
+    }
+
+    .que {
+        font-size: 1.5rem;
+    }
+
+    .ask {
+        height: 2.25rem;
+    }
+
+    .one {
+        font-size: 1.5rem;
+    }
+
+    .btn2 {
+        width: 15.5rem;
+        height: 3.56rem;
+        font-size: 1.4rem;
+    }
+
+    .panel {
+        height: 11rem;
+    }
+
+    ul a {
+        width: 15.8rem;
+    }
+}
